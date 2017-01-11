@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginDlg</class>
+ <widget class="QDialog" name="LoginDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>80</y>
+     <width>131</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LOGIN BUTTON</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>LoginDlg</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>195</x>
+     <y>133</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>140</x>
+     <y>219</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
